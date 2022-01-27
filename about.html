@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-s8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University website Design -Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+           <!-- link google font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+
+  <!-- header  -->
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"> <img src="images/logo.png"></a> 
+          <div class="nav-links" id="navLinks">
+             <img  class="close" src="images/close.png" onclick="hideMenu()"> 
+                 <ul>
+                  <li>
+                    <a href="">HOME </a>    
+                  </li>
+                  <li>
+                    <a href="">ABOUT</a>    
+                  </li>
+                  <li>
+                    <a href="">COURSE</a>    
+                  </li>
+                  <li>
+                    <a href="">BLOG</a>    
+                  </li>
+                  <li>
+                    <a href="">CONTACT</a>    
+                  </li>
+              </ul>
+          </div>
+           <img  class="fa" src="images/menu.png" onclick="showMenu()">
+      </nav>
+
+     <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+       <h1> We are the world's Largest University</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae repellendus dolorum culpa minima nam sapiente accusamus deleniti iste </p>
+       <a href="" class="hero-btn red-btn"> EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg">
+
+        </div>
+      </div>
+
+    </section>
+
+
+     
+              
+
+       <!-- Footer  -->
+       <section class="footer">
+         <h4>About Us </h4>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quas earum impedit quam praesentium debitis voluptates dolore laudantium natus </p>
+           <div class="icons">
+             <img src="images/facebook.png">
+             <img src="images/twitter.png">
+             <img src="images/Instagram.png">
+             <img src="images/linkidin.png">
+           </div>
+           <p> Made With  <i class="fas fa-heart"></i>Easy Tutorials</p>
+           
+       </section>
+
+
+
+
+
+
+
+
+              <!-- Java Script for Toggle Menu -->
+    <script> 
+          
+     var navLinks=document.getElementById("navLinks")
+     function showMenu()
+     {
+       navLinks.style.right="0";
+     }
+
+     function hideMenu()
+     {
+       navLinks.style.right="-200px";
+     }
+    </script>
+    
+</body>
+</html>
